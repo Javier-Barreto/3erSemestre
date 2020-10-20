@@ -1,7 +1,7 @@
 /*Se usa el selector element para el body*/
 body{
   margin: 0px;
-  background-image: url(/Assets/Images/new-fondo1lateral.jpg);
+  background-image: url(/Images/new-fondo1lateral.jpg);
   overflow: auto;
 }
 
