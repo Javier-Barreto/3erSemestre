@@ -1,0 +1,211 @@
+/*Se usa el selector element para el body*/
+body{
+  margin: 0px;
+  background-image: url(/Assets/Images/new-fondo1lateral.jpg);
+  overflow: auto;
+}
+
+/*Se usa el selector element para todas las p*/
+p{
+  margin: 0.5rem;
+  text-align: justify;
+}
+
+/*Se usa el selector element para el header*/
+header{
+  right: 0;
+  border: 2px solid black;
+  background-color: #303030;
+}
+
+/*Se usa el selector element para todos los h2*/
+h2{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+/*Se usa el selector element element para que aplique los estilos a todos los h2 que el elemento header dentro*/
+header h2{
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Se usa el selector element para aplicar los estilos a todos los elementos que esten despues de la primera p segun su sangria*/
+p+p{
+  color: white;
+}
+
+/*Se usa el selector class para aplicar los estilos a todas las clases .prueba*/
+.prueba{
+  color: red;
+}
+
+/*Se usa el selector id para aplicar los estilos al id #azul*/
+#azul{
+  color: blue;
+}
+
+/*Se usa el selector class para aplicar los estilos a la clase cuerpo*/
+.cuerpo{
+  width: 70%;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  margin: 0.5rem;
+  float: center;
+}
+
+/*Se usa el selector class para darle un width a la clase cuerpo_top*/
+.cuerpo_top{
+  width: 100%;
+}
+
+/*Se usa el selector element>element para aplicar los estilos a todos los p que esten dentro de la clase cuerpot_top*/
+.cuerpo_top>p{
+  text-align: justify;
+  color: black;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Se usa los selectores class y element,element para aplicar los estilos a todas las clases .t2 y .t3*/
+.t2,.t3{
+  color: black;
+  text-align: center;
+}
+
+/*Se usa el selector class para aplicar los estilos a la clase cuerpo_bottom*/
+.cuerpo_bottom{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*Se usa el selector class para aplicar los estilos a todas  las clases info*/
+.info{
+  width: 48%;
+  border: 1px solid black;
+  background-color: #a0a0a0;
+  border-radius: 20px;
+  color: black;
+  margin: 0.5rem;
+}
+
+/*Se usan los selectores class y element>element para aplicar los estilos para todos los h3 que esten dentro de la
+clase info*/
+.info>h3{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Se usa el selector class para aplicar los estilos a todos los divs con la clase formargin*/
+.formargin{
+  margin: 1rem;
+}
+
+/*Se usan los selectores class y element>element para aplicar los estilos a todos los p 
+que esten dentro de la clase formargin*/
+.formargin>p{
+  text-align: justify;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+/*Se usa el selector element para aplicar los estilos al aside*/
+aside{
+  width: 28%;
+  border: 1px solid black;
+  float: right;
+  margin: 0.5rem;
+  background-color: white;
+}
+
+/*Se usa el selector class para aplicar los estilos a la clase marginaside*/
+.marginaside{
+  background-color: #a0a0a0;
+  margin: 0.5rem;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Se usa el selector class y el selector element element para palicar los estilos al h2 dentro de la clase marginaside*/
+.marginaside h2{
+  color: black;
+}
+
+/*Se usa el selector class y el selector element element para palicar los estilos al p dentro de la clase marginaside*/
+.marginaside p{
+  margin: 0.8rem;
+  color: white;
+}
+
+/*Se usa el selector class para aplicar los estilos a la clase prueba2*/
+.prueba2{
+  text-decoration: underline;
+  color: rgb(46, 39, 39);
+}
+
+/*Se usa el selector element para aplicar los estilos al footer*/
+footer{
+  float: center;
+  right: 0;
+  border: 1px solid black;
+  background-color: #a0a0a0;
+  color: black;
+  text-align: center;
+}
+
+
+/*---Alternativas display---
+display: block:;
+display: inline;
+display: run-in;
+
+display: flow;
+display: flow-root;
+display: table;
+display: flex;
+display: grid;
+display: ruby;
+display: subgrid;
+
+display: block flow;
+display: inline table;
+display: flex run-in;
+
+display: list-item;
+display: list-item block;
+display: list-item inline;
+display: list-item flow;
+display: list-item flow-root;
+display: list-item block flow;
+display: list-item block flow-root;
+display: flow list-item block;
+
+display: table-row-group;
+display: table-header-group;
+display: table-footer-group;
+display: table-row;
+display: table-cell;
+display: table-column-group;
+display: table-column;
+display: table-caption;
+display: ruby-base;
+display: ruby-text;
+display: ruby-base-container;
+display: ruby-text-container;
+
+display: contents;
+display: none;
+
+display: inline-block;
+display: inline-table;
+display: inline-flex;
+display: inline-grid;
+
+display: heredar;
+display: initial;
+display: unset;*/
