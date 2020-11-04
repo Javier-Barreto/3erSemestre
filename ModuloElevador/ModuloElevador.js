@@ -76,8 +76,6 @@ var elevador = (function(){
         }
         else
         {
-          if(privatePActual<n)
-          {
             if(privateStateDoor==1)
             {
               console.log(CloseDoor());
@@ -87,13 +85,12 @@ var elevador = (function(){
               privatePActual++;
               console.log(privatePActual);
             }while(privatePActual!=n);
-          }
         }
         return "Hemos llegado al piso " + privatePActual + ", ya pueden bajar.";
       }
     }
     else{
-      return "Este elevador nomas tiene 8 pisos y planta baja, ingrese un número entre el 0 y el 7";
+      return "Este elevador nomas tiene 8 pisos y planta baja, ingrese un número entre el 0 y el 7"
     }
   }
 
