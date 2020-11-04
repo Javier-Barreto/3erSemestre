@@ -1,5 +1,5 @@
 var elevador = (function(){
-  //Variable que guarda el piso donde se encuentra, el piso 0 en teoria es planta baja
+  //Variable que guarda el piso donde se encuentra, el piso 0 en teoria es planta baja, es decir mi primer piso
   var privatePActual = 0;
 
   //0 es puerta cerrada y 1 es puerta abierta
@@ -8,17 +8,6 @@ var elevador = (function(){
   /*function ActualFloor(){
     return privatePActual;
   }*/
-
-  function closeDoorTime(){
-    var i =0;
-    do
-    {
-      i++;
-      console.log(i);
-    }while(i<10);
-    privateStateDoor=0;
-    return "Puerta cerrandose";
-  }
 
   function OpenDoor (){
     privateStateDoor=1;
@@ -44,7 +33,6 @@ var elevador = (function(){
       console.log(OpenDoor());
       privatePActual++;
       console.log("Hemos llegado al piso " + privatePActual);
-      return closeDoorTime();
     }
   }
 
@@ -61,8 +49,7 @@ var elevador = (function(){
 
       console.log(OpenDoor());
       privatePActual--;
-      console.log("Hemos llegado al piso " + privatePActual);
-      return closeDoorTime();
+      return "Hemos llegado al piso " + privatePActual;
     }
   }
 
@@ -102,9 +89,7 @@ var elevador = (function(){
             }while(privatePActual!=n);
           }
         }
-        console.log(OpenDoor());
-        console.log("Hemos llegado al piso " + privatePActual + ", ya pueden bajar.");
-        return closeDoorTime();
+        return "Hemos llegado al piso " + privatePActual + ", ya pueden bajar.";
       }
     }
     else{
