@@ -93,7 +93,7 @@ var elevador = (function(){
       }
     }
     else{
-      return "Este elevador nomas tiene 8 pisos y planta baja, ingrese un número entre el 0 y el 7"
+      return "Este elevador nomas tiene 8 pisos y planta baja, ingrese un número entre el 0 y el 7";
     }
   }
 
